@@ -1,0 +1,291 @@
+<!Doctype html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ardèche</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    </head>
+
+
+        <header>
+             <!--
+            bi bi-list (classique menu)
+
+✖️ bi bi-x (fermer)
+
+🧭 bi bi-grid-3x3-gap (menu en grille)
+
+⚙️ bi bi-gear (menu options)
+             on a pour commencer la nav qui contiendra notre menu 
+            puis on a notre container qui va contenir tout le contenu de la nav 
+            on peut avoir le logo ou le nom du site etc
+            on a le bouton qui apparaitra quand l'écran sera réduit et pour finir 
+            on a la div qui contiendra le contenu texte liens du site qui sera relier au bouton avec un id-->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <div class="container">
+                    <a href="" class="navbar-brand logo text-decoration-none "> <span class="fw-bold fs-1">Ach</span>cake </a>
+                    
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#menunaviguation"aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" > <i class="bi bi-grid-3x3-gap "></i></button>
+                    <div class="collapse navbar-collapse justify-content-end" id="menunaviguation">
+                        <ul class="navbar-nav fs-5 border-start border-white border-2">
+                            <li class="nav-item ">
+                                <a class="nav-link active " href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutMe">À propos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                </div>
+            </nav>
+        </header>
+    <body>
+        <banner>
+            <section class="banner d-flex align-items-center text-center text-white bg-dark " >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12  mt-3 col-md-2 offset-md-4">
+                            <img src="img/ardeche.jpg" class="rounded-circle border border-4 border-white " width="250" height="250" alt="image de presentation ardèche">
+
+                        </div>
+                    </div>
+                    <h1 class="bienvenu display-3 fw-bold" >Bienvenue chez Achcake</h1>
+                    <p class="lead mt-3">Découvrez nos délicieuses pâtisseries faites maison avec amour et passion.</p>
+                    <a href="#services" class="btn btn-primary btn-lg mt-4">Voir nos créations</a>
+                </div>
+            </section>
+        </banner>
+
+        <!--Section presentation type d'évenement -->
+        <section>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 text-center mt-5">
+                        <h1 class="descriptionEvenement ">Nos Événements</h1>
+                        
+                </div>
+                <div class="row offset-md-1">
+                    <div class="col-12 col-md-3 ms-1 text-center">
+                        <img src="img/anniversaire.jpg" alt="image pour les evenements d'anniversaire" class="img-fluid rounded-circle border border-4 border-warning mt-5" width="300" height="300">
+                        <p class="lead descriptionEvenement"> Vos anniversaires</p>
+                    </div>
+                    <div class="col-12 col-md-3 ms-1 text-center ">
+                        <img src="img/wedding.jpg" alt="image pour les evenements d'anniversaire" class="img-fluid rounded-circle border border-4 border-dark mt-5" width="300" height="300">
+                        <p class="lead descriptionEvenement "> Vos Mariages</p>
+                    </div>
+                    <div class="col-12 col-md-3 ms-1 text-center ">
+                        <img src="img/other.jpg" alt="image pour les evenements d'anniversaire" class="img-fluid rounded-circle border border-4 border-warning mt-5" width="300" height="300">
+                        <p class="lead descriptionEvenement"> Vos Divers évenements</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section apropos  -->
+    <section class="bg-dark mt-2 py-5" id="aboutMe"></section>
+        <div class="container bg-white p-5 rounded shadow">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h2 class="descriptionEvenement">À Propos de Nous</h2>
+                    <p class="text-muted">Découvrez notre histoire et notre passion pour la pâtisserie.</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/ardeche.jpg"  alt="Image à propos" class="img-fluid rounded shadow-sm">
+                </div>
+                <div class="col-md-6">
+                    <p class="lead">
+                        Chez Achcake, nous croyons que chaque moment mérite une touche sucrée. Depuis nos débuts, nous nous engageons à offrir des pâtisseries artisanales, préparées avec des ingrédients de qualité et une passion inégalée. Que ce soit pour un anniversaire, un mariage ou tout autre événement, nous sommes là pour rendre vos moments inoubliables.
+                    </p>
+                    <p class="text-muted">
+                        Notre équipe de pâtissiers talentueux travaille sans relâche pour créer des desserts qui ravissent les yeux et les papilles. Rejoignez-nous dans cette aventure gourmande et laissez-nous ajouter une touche de douceur à votre vie.
+                    </p>
+                    <a href="#contact" class="btn btn-dark btn-lg mt-3">Nous Contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!--Section services -->
+        <section id="services" class="bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="descriptionEvenement">Nos Services</h2>
+                        <p class="text-muted">Découvrez nos services de pâtisserie sur mesure.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 d-flex flex-column align-items-center justify-content-center text-center">
+                        <i class="fas fa-birthday-cake fa-3x mb-3"></i>
+                        <h4>Anniversaires</h4>
+                        <p class="text-muted">Des gâteaux d'anniversaire personnalisés pour rendre chaque célébration spéciale.</p>
+
+
+                    </div>
+
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-heart fa-3x mb-3"></i>
+                        <h4>Mariages</h4>
+                        <p class="text-muted">Des créations uniques pour le plus beau jour de votre vie.</p>
+                    </div>
+                    <div class="col-md-4 text-center mb-4">
+                        <i class="fas fa-gift fa-3x mb-3"></i>
+                        <h4>Événements Divers</h4>
+                        <p class="text-muted">Des pâtisseries sur mesure pour tous vos événements, qu'ils soient petits ou grands.</p>
+                    </div>
+                
+                <div class="row">
+                    <div class="row  mb-4">
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/un.jpg" class="rounded-circle m-1" alt="image anniversaire" width="80" height="80"></a>
+                            
+                        </div>
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/trois.jpg" class="rounded-circle m-1" alt="image anniversaire" width="80" height="80"></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/quatre.jpg" class="rounded-circle ms-1" alt="image anniversaire" width="80" height="80"></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/cinq.jpg" class="rounded-circle ms-1" alt="image anniversaire" width="80" height="80"></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/douze.jpg" class="rounded-circle ms-1" alt="image anniversaire" width="80" height="80"></a>
+                        </div>
+                        <div class="col-2 ">
+                            <a href="#"><img src="img/sept.jpg" class="rounded-circle ms-1" alt="image anniversaire" width="80" height="80"></a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#menuOffcanvas">
+                            -- Voir plus ici --
+                        </button>
+                        <!-- Offcanvas avec carrousel -->
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="menuOffcanvas">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title">Nos réalisations</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                            </div>
+                            <div class="offcanvas-body">
+
+                            <!-- Le Carousel -->
+                            <div id="carouselPhotos" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <img src="img/un.jpg" class="d-block w-100" alt="Photo 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/deux.jpg" class="d-block w-100" alt="Photo 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/trois.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/quatre.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                    <img src="img/cinq.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/sept.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/huit.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/neuf.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/dix.jpg" class="d-block w-100" alt="Photo 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/onze.jpg" class="d-block w-100" alt="Photo 3">
+                                        </div>
+                            </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPhotos" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselPhotos" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                              </div>
+
+                            </div>
+                          </div>
+                          <!--Fin de offcanvas-->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section contact -->
+        <section id="contact" class="bg-dark py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="descriptionEvenement text-white">Contactez-Nous</h2>
+                        <p class="text-muted   text-white ">Nous serions ravis de répondre à vos questions et de discuter de vos besoins en pâtisserie.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label text-white">Nom</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label text-white">Message</label>
+                                <textarea class="form-control" id="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary text-white">Envoyer</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-dark text-white py-5">
+            <div class="container text-center">
+                <h2>Suivez-Nous sur les Réseaux Sociaux</h2>
+                <p class="lead">Restez connecté avec nous pour des mises à jour et des offres spéciales.</p>
+                <a href="#" class="btn btn-primary"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-primary"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+    </body>
+
+    <footer>
+        
+        <p class="offset-5">© 2023 Ardèche. Tous droits réservés.</p>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </footer>
+
+</html>
